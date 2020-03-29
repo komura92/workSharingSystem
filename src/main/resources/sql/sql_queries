@@ -1,0 +1,10 @@
+
+
+TASK_PRIORITY CONTENT
+insert into task_priority(priority) values('A');
+insert into task_priority(priority) values('B');
+insert into task_priority(priority) values('C');
+insert into task_priority(priority) values('D');
+insert into task_priority(priority) values('E');
+
+select * from task_priority;
