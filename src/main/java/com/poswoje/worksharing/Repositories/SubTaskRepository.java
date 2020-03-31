@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface SubTaskRepository extends JpaRepository<SubTask, Long> {
     List<SubTask> findAllByDoneAndMainTask(boolean done, MainTask mainTask);
-    List<SubTask> findAllByDone(boolean done);
+    List<SubTask> findAllByMainTask(MainTask mainTask);
 }

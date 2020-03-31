@@ -36,4 +36,6 @@ public class SubTask {
 
     @ManyToOne
     private MainTask mainTask;
+
+    //User reserved for
 }

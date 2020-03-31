@@ -34,4 +34,6 @@ public class MainTask {
 
     @ManyToOne
     private TaskPriority taskPriority;
+
+    //owner
 }
